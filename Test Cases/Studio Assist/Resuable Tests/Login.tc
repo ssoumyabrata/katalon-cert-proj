@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Generate Code - UseCase 2 - Better</name>
+   <name>Login</name>
    <tag>GenAI</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>a2520147-125a-4554-94ea-9e7a2a0b613e</testCaseGuid>
+   <testCaseGuid>3bca7df3-bc77-4daa-a789-e8e5d532d28a</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>937a1c16-794b-4355-be50-fc54221830f9</variableId>
+      <variableId>12e03d9c-ddee-4f44-a04e-b8c1fb631a25</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>00993656-e05f-43cf-a3ee-15e02f82565d</variableId>
+      <variableId>282c0dee-e4ac-4873-9953-3504619e4a3e</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'John Doe'</defaultValue>
       <description></description>
-      <id>937a1c16-794b-4355-be50-fc54221830f9</id>
+      <id>12e03d9c-ddee-4f44-a04e-b8c1fb631a25</id>
       <masked>false</masked>
       <name>Username</name>
    </variable>
    <variable>
       <defaultValue>'ThisIsNotAPassword'</defaultValue>
       <description></description>
-      <id>00993656-e05f-43cf-a3ee-15e02f82565d</id>
+      <id>282c0dee-e4ac-4873-9953-3504619e4a3e</id>
       <masked>false</masked>
       <name>Password</name>
    </variable>

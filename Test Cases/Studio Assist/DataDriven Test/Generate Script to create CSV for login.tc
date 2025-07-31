@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Generate Script to create CSV for login</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>06275872-5d5c-4dd7-8879-31ded326c4da</testCaseGuid>
+</TestCaseEntity>

@@ -6,15 +6,19 @@
    <elementGuidId>2bf653e7-85b9-4151-be83-6f863a340507</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='appointment']/div/div/form/div[3]/div/label</value>
+         <key>BASIC</key>
+         <value>//input[@id = 'radio_program_medicare']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>label.radio-inline</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>radio_program_medicare</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -24,12 +28,12 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
-      <webElementGuid>5235e888-b655-4eb2-af21-a7dd319954b4</webElementGuid>
+      <value>input</value>
+      <webElementGuid>6dcd831d-95d7-486d-b40c-f46aad4c15ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,17 +41,17 @@
       <name>class</name>
       <type>Main</type>
       <value>radio-inline</value>
-      <webElementGuid>ed46088c-8ca7-4f46-93d9-bf2f827892db</webElementGuid>
+      <webElementGuid>56a7a169-88ab-47a9-a3b6-ccd0cd978a3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>
                              Medicare
                         </value>
-      <webElementGuid>a337ee11-54a4-4111-a972-302e46e72999</webElementGuid>
+      <webElementGuid>3b251489-46f1-410a-91c9-b75a9f6315ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +59,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;appointment&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/form[@class=&quot;form-horizontal&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-4&quot;]/label[@class=&quot;radio-inline&quot;]</value>
-      <webElementGuid>68e6d9a8-7a31-4840-8b67-28d8a7c81295</webElementGuid>
+      <webElementGuid>acb84f3b-e026-406c-90f9-5802f8df7b74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>radio_program_medicare</value>
+      <webElementGuid>0dc48c9f-c3bf-4f07-a4c1-0234905d3543</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +75,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='appointment']/div/div/form/div[3]/div/label</value>
-      <webElementGuid>44006586-6721-4c33-adb8-d1a95a39d5b5</webElementGuid>
+      <webElementGuid>2bc8b0ae-cace-4f11-bc82-26d12bf51019</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Healthcare Program'])[1]/following::label[1]</value>
-      <webElementGuid>999b5d4f-80ad-47e5-9f3c-8a794b850641</webElementGuid>
+      <webElementGuid>309b0b28-4d9e-4ba8-bdfc-ec5e0d6a3617</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Medicare']/parent::*</value>
-      <webElementGuid>681375fe-0057-43ef-8685-fb38fb542bcf</webElementGuid>
+      <webElementGuid>c3a7799c-9a69-4589-9db9-619ac50c3c4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +99,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/label</value>
-      <webElementGuid>e18294f1-b217-4f0e-8f70-500bf2a97d57</webElementGuid>
+      <webElementGuid>263e4b19-50a2-4c43-8186-b50616a81fc7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +111,6 @@
                         ' or . = '
                              Medicare
                         ')]</value>
-      <webElementGuid>f830dc3e-a853-403d-959f-00a1875fe62b</webElementGuid>
+      <webElementGuid>67104b39-2843-47c1-a234-e0bab7e74c30</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
