@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Execute a Shell Command</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>afcb692d-6057-4d42-bfdb-ac9b8e1989b4</testCaseGuid>
+</TestCaseEntity>

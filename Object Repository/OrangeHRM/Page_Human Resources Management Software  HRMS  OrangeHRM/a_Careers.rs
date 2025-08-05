@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Careers</name>
+   <tag></tag>
+   <elementGuidId>ddeaf9ca-8049-47d9-8239-fb61c2072efc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@href = 'https://www.orangehrm.com/company/careers']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[href=&quot;https\:\/\/www\.orangehrm\.com\/company\/careers&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Careers&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>5a2c7d79-59e9-4b2c-ae37-1868fbfec3ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://www.orangehrm.com/company/careers</value>
+      <webElementGuid>d8dfb9ed-7f3d-49d3-a284-5d0a1068237d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>d826ade9-fe80-4ce6-b83f-9a7ec5bce9d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                Careers
+                                            </value>
+      <webElementGuid>19a45646-1f35-4f3a-a80b-b5a6f82c8926</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-bc845de7f5e7caa16505f785ef3c226a</value>
+      <webElementGuid>8137c2c3-2e6c-4c9e-bb06-1d9a4075ba0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@href = 'https://www.orangehrm.com/company/careers']</value>
+      <webElementGuid>90db7b5a-3de0-4545-86c0-918a6256965a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@href = 'https://www.orangehrm.com/company/careers']</value>
+      <webElementGuid>e7c02574-f072-4785-94b8-ffbab8f73cd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://www.orangehrm.com/company/careers' and (text() = '
+                                                Careers
+                                            ' or . = '
+                                                Careers
+                                            ')]</value>
+      <webElementGuid>0bc3174c-ca13-496a-af7c-34a202ac8300</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

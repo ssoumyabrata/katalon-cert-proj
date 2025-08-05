@@ -46,20 +46,20 @@ WebUI.callTestCase(findTestCase('Test Cases/Studio Assist/Resuable Tests/Login')
 WebUI.delay(2)
 
 // Select the option 'Hongkong CURA Healthercare Center' in the Facility dropdown by label without regex
-WebUI.selectOptionByLabel(findTestObject('Object Repository/Page_CuraAppointment/select_Facility_combo_facility'), 'Hongkong CURA Healthcare Center', false)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/HealthCare/Page_CuraAppointment/select_Facility_combo_facility'), 'Hongkong CURA Healthcare Center', false)
 
 // Check the Healthcare Program radio button (assuming first label is to be checked)
-WebUI.check(findTestObject('Object Repository/Page_CuraAppointment/label_Healthcare Program_radio-inline'))
+WebUI.check(findTestObject('Object Repository/HealthCare/Page_CuraAppointment/label_Healthcare Program_radio-inline'))
 
 // Enter the date '31/07/2025' in the Visit Date input field
-WebUI.setText(findTestObject('Object Repository/Page_CuraAppointment/input_Visit Date (Required)_txt_visit_date'), '31/07/2025')
+WebUI.setText(findTestObject('Object Repository/HealthCare/Page_CuraAppointment/input_Visit Date (Required)_txt_visit_date'), '31/07/2025')
 
 // Enter comment 'Appointment for testing' in the Comment textarea
-WebUI.setText(findTestObject('Object Repository/Page_CuraAppointment/textarea_Comment_txt_comment'), 'Appointment for testing')
+WebUI.setText(findTestObject('Object Repository/HealthCare/Page_CuraAppointment/textarea_Comment_txt_comment'), 'Appointment for testing')
 
 
 // Click the Make Appointment button to submit
-WebUI.click(findTestObject('Object Repository/Page_CuraAppointment/button_makeAppointment'))
+WebUI.click(findTestObject('Object Repository/HealthCare/Page_CuraAppointment/button_makeAppointment'))
 WebUI.delay(2)
 
 // Capture screenshot of the current page

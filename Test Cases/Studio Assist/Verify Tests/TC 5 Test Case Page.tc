@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 5 Test Case Page</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>86b1ecef-4d0a-469b-8aba-140f1e3ded0b</testCaseGuid>
+</TestCaseEntity>

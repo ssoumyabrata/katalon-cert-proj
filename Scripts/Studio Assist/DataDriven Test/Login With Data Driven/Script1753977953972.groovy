@@ -42,19 +42,19 @@ WebUI.openBrowser(GlobalVariable.G_SiteURL)
 
 
 // Click on the make appointment button
-WebUI.click(findTestObject('Object Repository/Page_CURAHomePage/a_We Care About Your Health_btn-make-appointment'))
+WebUI.click(findTestObject('Object Repository/HealthCare/Page_CURAHomePage/a_We Care About Your Health_btn-make-appointment'))
 
 // Set text in the username input field with the variable Username
-WebUI.setText(findTestObject('Object Repository/Page_Login/input_Username_txt-username'), Username)
+WebUI.setText(findTestObject('Object Repository/HealthCare/Page_Login/input_Username_txt-username'), Username)
 
 // Set text in the password input field with the variable Password
-WebUI.setText(findTestObject('Object Repository/Page_Login/input_Password_txt-password'), Password)
+WebUI.setText(findTestObject('Object Repository/HealthCare/Page_Login/input_Password_txt-password'), Password)
 
 // Click on the login button
-WebUI.click(findTestObject('Object Repository/Page_Login/button_Password_btn-login'))
+WebUI.click(findTestObject('Object Repository/HealthCare/Page_Login/button_Password_btn-login'))
 
 // Verify the appointment element exists with a timeout of 10 seconds
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Login/p_Login_error'), 10)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HealthCare/Page_Login/p_Login_error'), 10)
 
 // Take a screenshot
 WebUI.takeScreenshot()

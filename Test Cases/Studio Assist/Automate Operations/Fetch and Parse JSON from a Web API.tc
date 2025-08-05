@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Fetch and Parse JSON from a Web API</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e51167cf-9e08-4443-9351-45aef4b8a748</testCaseGuid>
+</TestCaseEntity>

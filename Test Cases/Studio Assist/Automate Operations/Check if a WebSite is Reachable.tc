@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Check if a WebSite is Reachable</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ef7ccc2a-518b-4521-9ee9-fa1a4eea0331</testCaseGuid>
+</TestCaseEntity>

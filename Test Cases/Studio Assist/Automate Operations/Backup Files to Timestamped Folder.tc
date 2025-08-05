@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Backup Files to Timestamped Folder</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cb85bce0-9a2e-44a2-8212-c0d960f4c5af</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New User Signup - UserExist</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ec38309c-aab3-44e2-b795-241ad387cc4e</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>c334090c-297e-477c-b005-436de3c08f6e</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/user data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>c334090c-297e-477c-b005-436de3c08f6e</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>name</value>
+      <variableId>3a8a08ff-8bde-4680-920b-a40c514d4846</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>c334090c-297e-477c-b005-436de3c08f6e</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>email</value>
+      <variableId>2692fc7d-4bba-4cd1-a68d-f771c4b06cea</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3a8a08ff-8bde-4680-920b-a40c514d4846</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2692fc7d-4bba-4cd1-a68d-f771c4b06cea</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

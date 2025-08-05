@@ -6,16 +6,16 @@
    <elementGuidId>2bf653e7-85b9-4151-be83-6f863a340507</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@id = 'radio_program_medicare']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>label.radio-inline</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>radio_program_medicare</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id = 'radio_program_medicare']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

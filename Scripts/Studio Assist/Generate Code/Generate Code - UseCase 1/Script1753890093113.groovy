@@ -39,19 +39,19 @@ WebUI.openBrowser(GlobalVariable.G_SiteURL)
 WebUI.maximizeWindow()
 
 // Click the make appointment button with the id 'Object Repository/Page_CURAHomePage/a_We Care About Your Health_btn-make-appointment'
-WebUI.click(findTestObject('Object Repository/Page_CURAHomePage/a_We Care About Your Health_btn-make-appointment'))
+WebUI.click(findTestObject('Object Repository/HealthCare/Page_CURAHomePage/a_We Care About Your Health_btn-make-appointment'))
 
 // Fill in the username 'Object Repository/Page_Login/input_Username_txt-username' with the value of the local variable 'Username'
-WebUI.setText(findTestObject('Object Repository/Page_Login/input_Username_txt-username'), Username)
+WebUI.setText(findTestObject('Object Repository/HealthCare/Page_Login/input_Username_txt-username'), Username)
 
 // Fill in the password 'Object Repository/Page_Login/input_Password_txt-password' with the value of the local variable 'Password'
-WebUI.setText(findTestObject('Object Repository/Page_Login/input_Password_txt-password'), Password)
+WebUI.setText(findTestObject('Object Repository/HealthCare/Page_Login/input_Password_txt-password'), Password)
 
 // Click on Login button with id 'Object Repository/Page_Login/button_Password_btn-login'
-WebUI.click(findTestObject('Object Repository/Page_Login/button_Password_btn-login'))
+WebUI.click(findTestObject('Object Repository/HealthCare/Page_Login/button_Password_btn-login'))
 
 // Verify that the appointment div 'Object Repository/Page_CuraAppointment/div_Appointment' exists with timeout of 10s
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CuraAppointment/div_Appointment'), 10)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HealthCare/Page_CuraAppointment/div_Appointment'), 10)
 
 // Close the browser
 WebUI.closeBrowser()

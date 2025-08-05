@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Append Text To a File</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eadeb70c-e47a-44c5-8b0a-afe31a84bb72</testCaseGuid>
+</TestCaseEntity>

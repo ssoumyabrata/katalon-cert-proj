@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_makeAppointment</name>
+   <name>Go Daddy searchbox</name>
    <tag></tag>
-   <elementGuidId>e02d9884-fe3e-4961-98e0-13fee1b00abb</elementGuidId>
+   <elementGuidId>fec5b112-e7ed-4858-8ed7-d1f3ca9e9cc3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'btn-book-appointment']</value>
+         <key>XPATH</key>
+         <value></value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>btn-book-appointment</value>
+         <key>BASIC</key>
+         <value>//*[@name = 'searchText']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,9 +20,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>name</name>
       <type>Main</type>
-      <value>btn-book-appointment</value>
-      <webElementGuid>ed579220-50d1-42f9-9040-2c5d3443b153</webElementGuid>
+      <value>searchText</value>
+      <webElementGuid>30c80a43-7673-48de-954e-f3de0f43c4c0</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

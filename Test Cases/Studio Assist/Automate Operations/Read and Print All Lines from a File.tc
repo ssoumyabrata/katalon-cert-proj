@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Read and Print All Lines from a File</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>df539fb0-b9d8-43c9-8fdf-18da427839cb</testCaseGuid>
+</TestCaseEntity>

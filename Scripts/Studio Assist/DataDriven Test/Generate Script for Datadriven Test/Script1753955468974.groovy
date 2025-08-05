@@ -42,19 +42,19 @@ WebUI.callTestCase(findTestCase('Test Cases/Studio Assist/Resuable Tests/Login')
 WebUI.delay(2)
 
 // Select the option by label Facility in the select_Facility_combo_facility dropdown (not regex)
-WebUI.selectOptionByLabel(findTestObject('Object Repository/Page_CuraAppointment/select_Facility_combo_facility'), Facility, false)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/HealthCare/Page_CuraAppointment/select_Facility_combo_facility'), Facility, false)
 
 // Check the program radio button with label Program
-WebUI.check(findTestObject('Object Repository/Page_CuraAppointment/label_Healthcare Program_radio-inline'))
+WebUI.check(findTestObject('Object Repository/HealthCare/Page_CuraAppointment/label_Healthcare Program_radio-inline'))
 
 // Enter the Visit_Date into the input_Visit Date (Required)_txt_visit_date field
-WebUI.setText(findTestObject('Object Repository/Page_CuraAppointment/input_Visit Date (Required)_txt_visit_date'), Visit_Date)
+WebUI.setText(findTestObject('Object Repository/HealthCare/Page_CuraAppointment/input_Visit Date (Required)_txt_visit_date'), Visit_Date)
 
 // Enter the Comment into the textarea_Comment_txt_comment field
-WebUI.setText(findTestObject('Object Repository/Page_CuraAppointment/textarea_Comment_txt_comment'), Comment)
+WebUI.setText(findTestObject('Object Repository/HealthCare/Page_CuraAppointment/textarea_Comment_txt_comment'), Comment)
 
 // Click the Make Appointment button
-WebUI.click(findTestObject('Object Repository/Page_CuraAppointment/button_makeAppointment'))
+WebUI.click(findTestObject('Object Repository/HealthCare/Page_CuraAppointment/button_makeAppointment'))
 WebUI.delay(2)
 
 // Capture the screenshot of the page

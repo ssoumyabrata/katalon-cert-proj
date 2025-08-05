@@ -46,15 +46,15 @@ WebUI.openBrowser(GlobalVariable.G_SiteURL)
 // Maximize the browser
 WebUI.maximizeWindow()
 // Click the make appointment button
-WebUI.click(findTestObject('Object Repository/Page_CURAHomePage/a_We Care About Your Health_btn-make-appointment'))
+WebUI.click(findTestObject('Object Repository/HealthCare/Page_CURAHomePage/a_We Care About Your Health_btn-make-appointment'))
 // Fill in the username field based on the variable Username
-WebUI.setText(findTestObject('Object Repository/Page_Login/input_Username_txt-username'), Username)
+WebUI.setText(findTestObject('Object Repository/HealthCare/Page_Login/input_Username_txt-username'), Username)
 // Fill in the password field based on the variable Password
-WebUI.setText(findTestObject('Object Repository/Page_Login/input_Password_txt-password'), Password)
+WebUI.setText(findTestObject('Object Repository/HealthCare/Page_Login/input_Password_txt-password'), Password)
 // Click the login button
-WebUI.click(findTestObject('Object Repository/Page_Login/button_Password_btn-login'))
+WebUI.click(findTestObject('Object Repository/HealthCare/Page_Login/button_Password_btn-login'))
 // Validate the appointment div is available with timeout of 10 seconds
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CuraAppointment/div_Appointment'), 10)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HealthCare/Page_CuraAppointment/div_Appointment'), 10)
 // Close the browser
 WebUI.closeBrowser()
 
